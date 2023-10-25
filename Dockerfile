@@ -2,7 +2,7 @@
 
 # The first instruction is what image we want to base our container on
 # We Use an official Python runtime as a parent image
-FROM python:3.11-alpine
+FROM public.ecr.aws/f4q7v5g0/python:3.11-alpine
 
 # Allows docker to cache installed dependencies between builds
 COPY requirements.txt requirements.txt
