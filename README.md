@@ -7,6 +7,6 @@ GitHub branch -> AWS CodePipeline -> AWS CodeDeploy -> AWS Elastic Compute Cloud
 
 ToDo:
 - Build Dockerfile
-- Image to the registry https://aws.amazon.com/blogs/devops/build-a-continuous-delivery-pipeline-for-your-container-images-with-amazon-ecr-as-source/
+- Image to the registry https://aws.amazon.com/blogs/devops/build-a-continuous-delivery-pipeline-for-your-container-images-with-amazon-ecr-as-source/ (Analyze eror on CodeBuild)
 - Create K8s Applications Config Files
 - Deploy App on K8s
