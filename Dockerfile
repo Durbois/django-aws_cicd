@@ -6,6 +6,7 @@ FROM 727269623216.dkr.ecr.eu-central-1.amazonaws.com/python:3.11-alpine
 
 # Allows docker to cache installed dependencies between builds
 COPY requirements.txt requirements.txt
+RUN ls -la
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Mounts the application code to the image
