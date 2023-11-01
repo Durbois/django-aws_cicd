@@ -6,7 +6,7 @@ GitHub branch -> AWS CodePipeline -> AWS CodeDeploy -> AWS Elastic Compute Cloud
 [AWS CI-CD for your Django app with AWS CodePipeline](https://medium.com/clairvoyantblog/aws-ci-cd-for-your-django-app-with-aws-codepipeline-aafec23f9e55)
 
 ToDo:
-- Build Dockerfile
-- Image to the registry https://aws.amazon.com/blogs/devops/build-a-continuous-delivery-pipeline-for-your-container-images-with-amazon-ecr-as-source/ (Analyze eror on CodeBuild) https://aws.amazon.com/blogs/devops/using-aws-codepipeline-for-deploying-container-images-to-aws-lambda-functions/
-- Create K8s Applications Config Files
+- Build Dockerfile (done)
+- Image to the registry (done)
+- Create K8s Applications Config Files (Create a cluster with terraform and push files with helm and argocd)
 - Deploy App on K8s
