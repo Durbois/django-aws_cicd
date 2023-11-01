@@ -2,7 +2,7 @@
 
 # The first instruction is what image we want to base our container on
 # We Use an official Python runtime as a parent image
-FROM python:3.11.6-slim
+FROM 727269623216.dkr.ecr.eu-central-1.amazonaws.com/python:3.11.6-slim
 
 # Allows docker to cache installed dependencies between builds
 COPY requirements.txt requirements.txt
