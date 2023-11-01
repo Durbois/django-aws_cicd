@@ -17,11 +17,8 @@ phases:
       - docker tag $REPOSITORY_URI:latest $REPOSITORY_URI:$IMAGE_TAG
   post_build:
     commands:
-      - aws ecr get-login-password --region eu-central-1 | docker login --username AWS --password-stdin 727269623216.dkr.ecr.eu-central-1.amazonaws.com
       - echo Build completed on `date`
       - echo Pushing the Docker images...
-      - echo $REPOSITORY_URI
-      - echo $IMAGE_TAG
       - docker push $REPOSITORY_URI:latest
       - docker push $REPOSITORY_URI:$IMAGE_TAG
 artifacts:
