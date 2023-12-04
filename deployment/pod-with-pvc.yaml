@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: django-pod-pvc
+  namespace: django
+  labels:
+    app: django
+spec:
+  volumes:
+    - name: django-pvc
+      persistentVolumeClaim:
+        claimName: django-pvc
+  containers:
+    - name: django
+      image: 727269623216.dkr.ecr.eu-central-1.amazonaws.com/django:latest
+      ports:
+        - containerPort: 8080
+      volumeMounts:
+        - mountPath: "/nginx/html"
+          name: django-pvc   
