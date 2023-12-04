@@ -4,8 +4,8 @@ metadata:
   name: django-pvc
   namespace: django
 spec:
-  # storageClassName: "" # Empty string must be explicitly set otherwise default StorageClass will be set
-  # volumeName: django-pv
+  storageClassName: "gp2" # Empty string must be explicitly set otherwise default StorageClass will be set
+  volumeName: django-pv
   volumeMode: Filesystem
   accessModes:
     - ReadWriteOnce  

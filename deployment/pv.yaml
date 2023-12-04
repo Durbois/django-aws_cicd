@@ -4,6 +4,7 @@ metadata:
   name: django-pv
   namespace: django
 spec:
+  storageClassName: "gp2"
   capacity:
    storage: 5Gi
   accessModes:
