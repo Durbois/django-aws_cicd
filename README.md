@@ -3,7 +3,15 @@
 GitHub branch -> AWS CodePipeline -> AWS CodeDeploy -> AWS Elastic Compute Cloud
 
 ## Original How-To Guide
+EC2CodeDeployRole
+CodeDeployRole
+AWSCodePipelineServiceRole-eu-central-1-aws-cicd-pipeline
+AWSCodePipelineServiceRole-eu-central-1-aws-eks-cicd
+codebuild-aws-eks-cicd-service-role
+
 [AWS CI-CD for your Django app with AWS CodePipeline](https://medium.com/clairvoyantblog/aws-ci-cd-for-your-django-app-with-aws-codepipeline-aafec23f9e55)
+
+https://yonghoabdurahim.medium.com/deploy-a-sample-application-onto-eks-cluster-utilizing-aws-ci-cd-code-pipeline-codecommit-aws-81b1b2ea5cde
 
 ToDo:
 - Build Dockerfile (done)
