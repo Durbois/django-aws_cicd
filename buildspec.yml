@@ -31,6 +31,7 @@ phases:
       - echo Pushing the Docker images...
       - docker push $REPOSITORY_URI:latest
       - docker push $REPOSITORY_URI:$IMAGE_TAG
+      - aws eks update-kubeconfig --name eks-managed-node-group --region eu-central-1
       - kubectl apply -f deployment/namespace.yaml
 artifacts:
   files:
