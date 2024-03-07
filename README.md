@@ -8,6 +8,7 @@ CodeDeployRole
 AWSCodePipelineServiceRole-eu-central-1-aws-cicd-pipeline
 AWSCodePipelineServiceRole-eu-central-1-aws-eks-cicd
 codebuild-aws-eks-cicd-service-role
+CodeBuildKubectlRole
 
 [AWS CI-CD for your Django app with AWS CodePipeline](https://medium.com/clairvoyantblog/aws-ci-cd-for-your-django-app-with-aws-codepipeline-aafec23f9e55)
 
